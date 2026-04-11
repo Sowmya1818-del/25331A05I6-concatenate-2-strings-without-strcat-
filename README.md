@@ -4,9 +4,9 @@
     char str1[100], str2[100];
     int i = 0, j = 0;
     printf("Enter first string: ");
-    gets(str1); 
+    fgets(str1,sizeof(str1),stdin);
     printf("Enter second string: ");
-    gets(str2);
+    fgets(str2,sizeof(str2),stdin);
     while (str1[i] != '\0') {
         i++;
     }
